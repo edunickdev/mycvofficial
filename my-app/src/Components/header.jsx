@@ -14,7 +14,7 @@ export function Header() {
                 </div>
 
                 <div className="carousel-item hcard">
-                    <img src={images.logoPY} alt="/" className="h-50"/>
+                    <img src={images.logoPY} alt="/" className="h-50 w-100"/>
                     <img src={images.logoMYSQL} alt="/" className="h-50 w-50"/>
                     <img src={images.logoJAVA} alt="/" className="h-50 w-50"/>
                 </div>
@@ -28,16 +28,13 @@ export function Header() {
                 <span className="visually-hidden">Next</span>
             </button>
         </div>
-        <div className="bg-primary w-50 m-2 rounded-3 text-white">
-            <h1 className="text-center">Eduard Nicolás <br/> SARMIENTO HERRERA</h1>
-            <div className="card text-bg-dark m-2 col-5">
-                <img src={images.port} className="card-img port" alt="/" />
-                <div className="card-img-overlay">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.</p>
-                    <p className="card-text"><small>Last updated 3 mins ago</small></p>
-                </div>
+        <div className="bg-primary w-50 m-2 rounded-3 text-white p-3">
+            <div className="row">
+                <h1 className="text-center col-lg-12 col-12 col-md-6 h-50 w-100">Eduard Nicolás <br/> Sarmiento Herrera</h1>
+                <p className="container-fluid text-center mt-5">
+                    Hey, i'm glad to see you here, i'm from Bogotá - Colombia, i'm a passionate person by Technology and Education, specially social sciences, yes yes social sciences
+                    i'm strongh believer that the Social Sciences and the Development of Software are a good mix by the news generations and will make of the world a better place where live.
+                </p>
             </div>
         </div>
     </div>

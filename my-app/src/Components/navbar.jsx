@@ -7,18 +7,18 @@ export function Navbar() {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav text-white">
-                        <li className="nav-item">
-                            <a className="nav-link" aria-current="page" href="/">Home</a>
+                    <ul className="navbar-nav">
+                        <li className="nav-item navmenu">
+                            <a className="nav-link text-white" aria-current="page" href="/">Home</a>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="/">About me</a>
+                        <li className="nav-item navmenu">
+                            <a className="nav-link text-white" href="/">About me</a>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="/">Projects</a>
+                        <li className="nav-item navmenu">
+                            <a className="nav-link text-white" href="/">Projects</a>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="/">Contact me</a>
+                        <li className="nav-item navmenu">
+                            <a className="nav-link text-white" href="/">Contact me</a>
                         </li>
                     </ul>
                 </div>

@@ -22,3 +22,8 @@ code {
   width: 100%;
 }
 
+.navmenu:hover {
+  background-color: cornflowerblue;
+  border-radius: 10px;
+}
+

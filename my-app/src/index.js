@@ -14,7 +14,7 @@ root.render(
     <App />
       <Header/>
         <section>
-          
+
         </section>
       <Navbar/>
        <BrowserRouter>

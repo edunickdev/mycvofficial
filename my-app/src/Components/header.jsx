@@ -43,7 +43,7 @@ export function Header() {
                                     <img src={images.port} className="h-75 w-100 rounded-circle mt-md-4" alt="" />
                                 </div>
                                 <div className="col-md-6 text-body text-center p-2">
-                                    <p>Hi,I´m glad to see you here, i'm from Bogotá - Colombia, 31 years old and i'm a passionate for the Technology and the Social Sciences, yes Social Sciences, I believe that both disciplines can contribute to making the world a better place.</p>
+                                    <p>Hi, I'm glad to see you here, i'm from Bogotá - Colombia, 31 years old and i'm a passionate for the Technology and the Social Sciences, yes Social Sciences, I believe that both disciplines can contribute to making the world a better place.</p>
                                     <ul className="list-unstyled">
                                         <li></li>
                                     </ul>

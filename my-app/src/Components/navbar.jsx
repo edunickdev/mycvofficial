@@ -9,16 +9,16 @@ export function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item navmenu">
-                            <a className="nav-link text-md-center" aria-current="page" href="/">Home</a>
+                            <a className="nav-link text-md-center text-white" aria-current="page" href="/">Home</a>
                         </li>
                         <li className="nav-item navmenu">
-                            <a className="nav-link text-md-center" href="/">About me</a>
+                            <a className="nav-link text-md-center text-white" href="/">About me</a>
                         </li>
                         <li className="nav-item navmenu">
-                            <a className="nav-link text-md-center" href="/">Projects</a>
+                            <a className="nav-link text-md-center text-white" href="/">Projects</a>
                         </li>
                         <li className="nav-item navmenu">
-                            <a className="nav-link text-md-center" href="/">Contact me</a>
+                            <a className="nav-link text-md-center text-white" href="/">Contact me</a>
                         </li>
                     </ul>
                 </div>

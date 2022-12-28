@@ -2,10 +2,10 @@ import images from "./images/images";
 
 export function Header() {
     return <div className>
-        <div className="container hcard h-50 mt-md-5 mb-md-4">
+        <div className="container hcard h-50 mt-md-5 mb-md-5">
             <div className="row mt-md-2 mb-md-2">
                 <div className="col-md-8 col-sm-4 col-xl-8">
-                    <div id="carouselExampleFade" className="carousel slide carousel-fade mt-md-4" data-bs-ride="carousel">
+                    <div id="carouselExampleFade" className="carousel slide carousel-fade mt-md-3" data-bs-ride="carousel">
                         <div className="carousel-inner hcard">
                             <div className="carousel-item active">
                                 <img src={images.logoREACT} className="h-100 w-100" alt="logoReact" />
@@ -34,13 +34,13 @@ export function Header() {
                 </div>
                 <div className="col-md-4 col-sm-4 col-xl-4">
                     <div className="container">
-                        <div className="row mt-md-3">
+                        <div className="row mt-md-4">
                             <div className="col-md-12 text-center">
                                 <h2>Eduard Nicolás Sarmiento Herrera</h2>
                             </div>
                             <div className="row">
                                 <div className="col-md-6">
-                                    <img src={images.port} className="h-75 w-100 rounded-circle mt-md-4" alt="" />
+                                    <img src={images.port} className="h-75 w-100 rounded-4 mt-md-4" alt="" />
                                 </div>
                                 <div className="col-md-6 text-body text-center p-2">
                                     <p>Hi, I'm glad to see you here, i'm from Bogotá - Colombia, 31 years old and i'm a passionate for the Technology and the Social Sciences, yes Social Sciences, I believe that both disciplines can contribute to making the world a better place.</p>

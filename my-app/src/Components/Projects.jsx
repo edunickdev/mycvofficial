@@ -7,8 +7,8 @@ const Projects = () => {
                 <p className="text-center">Actually this space is in build, for the moment you can visit my networks doing click on each of the follow icons, into GitHub you will see all my projects, for the others platforms you can use it to type me.</p>
             <div className="d-flex justify-content-center">
                 <div className="d-flex justify-content-center align-items-center bg-opacity-50 bg-info rounded-5 w-25 mt-md-3">
-                    <a href=""><img className="d-block mx-auto p-md-3" src={images.iconLinkedin} alt="" /></a>
-                    <a href=""><img className="d-block mx-auto p-md-3" src={images.iconGithub} alt=""/></a>
+                    <a href="/"><img className="d-block mx-auto p-md-3" src={images.iconLinkedin} alt="" /></a>
+                    <a href="/"><img className="d-block mx-auto p-md-3" src={images.iconGithub} alt=""/></a>
                 </div>
             </div>
         </div>

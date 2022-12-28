@@ -16,11 +16,11 @@ const App = () => {
             <Cards />
             <Routes>
                 <Route path="/" element={<Navbar/>}></Route>
-                <Route path="/" element={<Header />} exact></Route>
-                <Route path="/" element={<SubHeader />} exact></Route>
+                <Route path="/home" element={<Header />} exact></Route>
+                <Route path="/home" element={<SubHeader />} exact></Route>
                 <Route path="/projects" element={<Projects />} exact></Route>
                 <Route path="/about" element={<Cards />} exact></Route>
-              </Routes>
+            </Routes>
         </BrowserRouter>
     </div>
   );

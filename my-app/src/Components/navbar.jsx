@@ -9,7 +9,7 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item navmenu">
-                            <a className="nav-link text-md-center text-white" aria-current="page" href="/">Home</a>
+                            <a className="nav-link text-md-center text-white" aria-current="page" href="/home">Home</a>
                         </li>
                         <li className="nav-item navmenu">
                             <a className="nav-link text-md-center text-white" href="/about">About me</a>

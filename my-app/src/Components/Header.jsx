@@ -1,6 +1,6 @@
 import images from "./images/images";
 
-export function Header() {
+const Header = () => {
     return <div className>
         <div className="container hcard h-50 mt-md-5 mb-md-5">
             <div className="row mt-md-2 mb-md-2">
@@ -56,3 +56,5 @@ export function Header() {
         </div>
     </div>
 }
+
+export default Header;

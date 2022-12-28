@@ -1,6 +1,6 @@
 import images from "./images/images";
 
-export function Cards() {
+const Cards = () => {
     return <div>
         <div className="container-fluid mt-5 h-75">
             <div className="row bg-opacity-25 bg-info">
@@ -50,3 +50,5 @@ export function Cards() {
             </div>
         </div>
 }
+
+export default Cards;

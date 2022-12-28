@@ -1,4 +1,4 @@
-export function Navbar() {
+const Navbar = () => {
     return <div>
         <nav className="navbar navbar-expand-lg bg-primary fixed-top">
             <div className="container-fluid">
@@ -12,18 +12,16 @@ export function Navbar() {
                             <a className="nav-link text-md-center text-white" aria-current="page" href="/">Home</a>
                         </li>
                         <li className="nav-item navmenu">
-                            <a className="nav-link text-md-center text-white" href="/">About me</a>
+                            <a className="nav-link text-md-center text-white" href="/about">About me</a>
                         </li>
                         <li className="nav-item navmenu">
-                            <a className="nav-link text-md-center text-white" href="/">Projects</a>
-                        </li>
-                        <li className="nav-item navmenu">
-                            <a className="nav-link text-md-center text-white" href="/">Contact me</a>
+                            <a className="nav-link text-md-center text-white" href="/projects">Projects</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-
     </div>
 }
+
+export default Navbar;

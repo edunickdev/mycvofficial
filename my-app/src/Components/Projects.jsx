@@ -1,6 +1,6 @@
 import images from "./images/images";
 
-export function Projects() {
+const Projects = () => {
     return <div>
         <div className="container container-fluid">
             <h1 className="text-center mt-md-5 pt-md-5 pb-md-3">PROJECTS</h1>
@@ -14,3 +14,5 @@ export function Projects() {
         </div>
     </div>
 }
+
+export default Projects;

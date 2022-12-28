@@ -1,6 +1,6 @@
 import images from "./images/images";
 
-export function SubHeader() {
+const SubHeader = () => {
     return <div className="container-fluid d-block">
         <div className="accordion" id="accordionPanelsStayOpenExample">
             <div className="accordion-item bg-opacity-10 bg-info">
@@ -26,3 +26,5 @@ export function SubHeader() {
         </div>
     </div>
 }
+
+export default SubHeader;

@@ -1,4 +1,5 @@
 import images from "./images/images";
+import SubHeader from "./subHeader";
 
 const Header = () => {
     return <div className>
@@ -8,16 +9,16 @@ const Header = () => {
                     <div id="carouselExampleFade" className="carousel slide carousel-fade mt-md-3" data-bs-ride="carousel">
                         <div className="carousel-inner hcard">
                             <div className="carousel-item active">
-                                <img src={images.logoREACT} className="h-100 w-100" alt="logoReact" />
+                                <img src={images.logoREACT} className="h-100 w-100 img-fluid" alt="logoReact" />
                             </div>
                             <div className="carousel-item hcard">
-                                <img src={images.logoPY} className="h-50 w-100" alt="logoPython" />
-                                <img src={images.logoMYSQL} className="h-50 w-50" alt="logoMYSQL" />
-                                <img src={images.logoJAVA} className="h-50 w-50" alt="logoJAVA" />
+                                <img src={images.logoPY} className="h-50 w-100 img-fluid" alt="logoPython" />
+                                <img src={images.logoMYSQL} className="h-50 w-50 img-fluid" alt="logoMYSQL" />
+                                <img src={images.logoJAVA} className="h-50 w-50 img-fluid" alt="logoJAVA" />
                             </div>
                             <div className="carousel-item hcard">
-                                <img src={images.logoHTMLCSSJS} className="h-50 w-100" alt="logoHTMLCSSJS" />
-                                <img src={images.logoBootstrap} className="h-50 w-100" alt="logoBootstrap" />
+                                <img src={images.logoHTMLCSSJS} className="h-50 w-100 img-fluid" alt="logoHTMLCSSJS" />
+                                <img src={images.logoBootstrap} className="h-50 w-100 img-fluid" alt="logoBootstrap" />
                             </div>
                         </div>
                         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
@@ -40,19 +41,17 @@ const Header = () => {
                             </div>
                             <div className="row">
                                 <div className="col-md-6">
-                                    <img src={images.port} className="h-75 w-100 rounded-4 mt-md-4" alt="" />
+                                    <img src={images.port} className="h-75 w-100 rounded-4 mt-md-4 img img-fluid" alt="" />
                                 </div>
                                 <div className="col-md-6 text-body text-center p-2">
                                     <p>Hi, I'm glad to see you here, i'm from Bogotá - Colombia, 31 years old and i'm a passionate for the Technology and the Social Sciences, yes Social Sciences, I believe that both disciplines can contribute to making the world a better place.</p>
-                                    <ul className="list-unstyled">
-                                        <li></li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <SubHeader/>
         </div>
     </div>
 }

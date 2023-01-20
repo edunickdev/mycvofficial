@@ -40,8 +40,8 @@ const Header = () => {
                                 <h2>Eduard Nicolás Sarmiento Herrera</h2>
                             </div>
                             <div className="row">
-                                <div className="col-md-6">
-                                    <img src={images.port} className="h-75 w-100 rounded-4 mt-md-4 img img-fluid" alt="" />
+                                <div className="col-md-6 col-sm-4">
+                                    <img src={images.port} className="rounded-4 mt-md-5 img img-fluid" alt="" width="170vw" height="160vh" />
                                 </div>
                                 <div className="col-md-6 text-body text-center p-2">
                                     <p>Hi, I'm glad to see you here, i'm from Bogotá - Colombia, 31 years old and i'm a passionate for the Technology and the Social Sciences, yes Social Sciences, I believe that both disciplines can contribute to making the world a better place.</p>
